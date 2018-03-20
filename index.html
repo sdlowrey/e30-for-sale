@@ -1,92 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <title>1987 BMW E30 Racer</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1987 BMW E30 Racer</title>
     <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" type="text/css" href="forsale.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+</style>
 <body>
 
-<!-- Side navigation -->
-<div class="topnav">
-  <a href="#overview">Overview</a>
-  <a href="#engine">Engine & Driveline</a>
-  <a href="#suspension">Suspension</a>
-  <a href="#chassis">Chassis</a>
-  <a href="#contact">Sale Info</a>
+<!-- Nav bar -->
+<div class="w3-top">
+  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="#overview" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+      <a href="#engine" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Engine & Driveline</a>
+      <a href="#suspension" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Suspension</a>
+      <a href="#chassis" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Chassis</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#overview" class="w3-bar-item w3-button w3-padding-large">Overview</a>
+    <a href="#engine" class="w3-bar-item w3-button w3-padding-large">Engine & Driveline</a>
+    <a href="#suspension" class="w3-bar-item w3-button w3-padding-large">Suspension</a>
+    <a href="#chassis" class="w3-bar-item w3-button w3-padding-large">Chassis</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+  </div>
 </div>
 
+<!-- Header -->
+<header class="w3-container w3-center" style="padding:64px 16px">
+    <img src="images/e30-watkins-glen.jpg" alt="Driver side view" class="w3-image">
+</header>
 
-<div class="main">
-    <img src="images/driver-side-ext.jpg" alt="Driver side view" style="max-width:100%;height:auto;">
+<!-- Overview -->
+<div class="w3-row-padding w3-padding-32 w3-container">
+  <div class="w3-content">
+    <h1 id="overview">For Sale: 1987 BMW 325is Racer</h1>
+    <h5 class="w3-padding-32">Based on a 1987 BMW E30 325is, this car was tracked as a street car with various clubs before being prepped for SCCA E Production racing in 2009. The car was entered mostly in SCCA races and PDX events in the Mid-Atlantic area through October 2013. Achieved several class wins and a season championship.</h5>
 
-    <h2 id="overview">Overview</h2>
-    <p>Based on a 1987 BMW 325is, this car was tracked as a street car with various clubs before being prepped for SCCA E Production racing in 2009. The car was entered mostly in SCCA races and PDX events in the Mid-Atlantic area. Achieved several class wins and a season championship. Last event was October 2013.</p>
+    <p>This is a solid, reliable car that's been stored in a climate-controlled garage for the last few years. It starts and runs fine. Will need new tires and tech inspection. Could use some cosmetic touch-ups too. Otherwise, it's ready to go. I have the SCCA logbook and documentation/paperwork for most of the work that's been done.</p>
+  </div>
+</div>
 
-    <p>This is a solid, reliable car that's been stored in a climate-controlled garage. It starts and runs fine. Will need new tires and tech inspection. Could use some cosmetic touch-ups too. Otherwise, it's ready to go.</p>
+<!-- Engine & Driveline -->
+<div class="w3-row-padding w3-padding-32 w3-container">
+  <div class="w3-content">
 
-    <p>Has SCCA logbook and documentation/paperwork for pretty much everything that I've worked on.</p>
-
-    <h2 id="engine">Engine & Driveline</h2>
+    <h1 id="engine">Engine & Driveline</h1>
 
     <h3>Engine</h3>
-    <p>BMW M20 with stock internals. Mileage unknown, rockers replaced in 2009.
-    <ul>
-    <li>Motronic 172 DME (have original 152 DME)</li>
-    <li>Ireland Engineering shorty header</li>
-    <li>Custom side-exit exhaust, 18" glass pack race muffler</li>
-    <li><a href="https://www.crank-scrapers.com/">I-J crank scraper</a></li>
-    <li>Powermaster Denso-style race alternator</li>
-    <li>Spal 16" electric puller fan</li>
-    <li>Stripped engine wiring harness</li>
-    </ul>
+      <h5>BMW M20 with stock crank, pistons, intake, and valve train. Straight exhaust. Simplified cooling and electrical.</h5>
+      <ul>
+        <li><a href="https://www.crank-scrapers.com/">I-J crank scraper</a></li>
+          <li><a href="http://www.iemotorsport.com/bmw/item/e30headerss.html">Ireland Engineering shorty exhaust header</a> <em>(not stainless steel)</em></li>
+        <li>Custom side-exit exhaust, 18" glass pack race muffler</li>
+        <li>Powermaster Denso-style race alternator</li>
+        <li>Spal 16" electric puller fan</li>
+        <li>Motronic 172 DME (have original 152 DME)</li>
+        <li>Stripped wiring harness</li>
+      </ul>
 
-    <p>The wiring harness was stripped to remove OBD1, fuel and O2 heat relays, gauge cluster, etc.</p>
+      <p>The wiring harness was stripped to remove OBD1, fuel and O2-heat relays, gauge cluster ... and any other wiring not required for proper engine control. This was done for a few reasons, but the main problem was an occasional cut-out midway in the rev range.  The harness is now simpler, lighter, and easier to work on when needed.</p>
 
-    <p>All unnecessary coolant lines removed. No thermostat. Power steering pump removed; can be reinstalled and reconnected to stock steering rack.</p>
+      <p>All unnecessary coolant lines removed. No thermostat.</p>
+      <p>Stock steering rack. Power steering pump removed (can be reinstalled if desired).</p>
 
-    <p>Red Line 50W racing oil for the motor, distilled water for cooling.</p>
+      <p>Red Line 50W racing oil in the crankcase, distilled water in the radiator.</p>
 
-    <p>Stock saddle tank removed, FuelSafe racing cell mounted flush with trunk floor (spare tire well removed). Holley 8psi first-stage pump, Kinsler swirl pot, metered return line, high-pressure second stage pump and filter. Interior send and return lines with fittings at the rear bulkhead and firewall. Stock fuel rail, regulator, and injectors. Electric fuel pressure gauge on the dash. Runs on pump gas.</p>
+      <p>Stock saddle tank removed, FuelSafe racing cell mounted flush with trunk floor (spare tire well removed). Holley 8psi first-stage pump, Kinsler swirl pot, metered return line, high-pressure second stage pump and filter. Interior send and return lines with fittings at the rear bulkhead and firewall. Stock fuel rail, regulator, and injectors. Electric fuel pressure gauge on the dash. Runs on pump gas.</p>
 
     <h3>Driveline</h3>
+      <h5>Lightweight flywheel, single-disc race clutch, stock 5-speed Getrag 265, 4.10 limited-slip differential.</h5>
     <ul>
-        <li>Stock five-speed Getrag 265 gearbox</li>
-        <li>JBRacing aluminum lightweight flywheel</li>
-        <li>Clutch Masters Stage 5 heavy duty pressure plate with 6-puck ceramic disc</li>
+        <li><a href="http://www.jbracing.com/">JBRacing</a> aluminum flywheel</li>
+        <li><a href="http://www.clutchmasters.com/">Clutch Masters</a> stage 5 clutch</li>
         <li>B&M short shifter</li>
         <li>Stock drive shaft and center bearing</li>
         <li>4.10 rear diff with sold Delrin mount</li>
-        <li>stock axles and hubs</li>
+        <li>Stock axles and hubs</li>
         <li>Urethane engine and gearbox mounts</li>
     </ul>
 
-    <h2 id="suspension">Suspension, Brakes, Wheels</h2>
+      <p>The clutch uses a heavy duty pressure plate with a soild six-puck ceramic disc.</p>
 
-    <p>Ground Control Systems fully adjustable race suspension. Currently set up for Hoosier 245/580R15 competition radial slicks.</p>
+      <p>The flywheel and clutch came from <a href="http://www.bimmerworld.com/">BimmerWorld</a> as a kit. The pressure plate and wheel were balanced at Tyson's Automotive Machine in Sterling, VA. The result is faster engine revving and clutch engagement.</p>
+
+      <p>The stock 3.73 diff was replaced with a stock 4.10, which allows better use of the gear range at tracks like Summit Point. (Original diff is included in sale.)</p>
+
+  </div>
+</div>
+
+<!-- Overview -->
+<div class="w3-row-padding w3-padding-32 w3-container">
+  <div class="w3-content">
+
+    <h1 id="suspension">Suspension, Brakes, Wheels</h1>
+
+    <h5><a href="https://groundcontrolstore.com/collections/e30-full-system/products/bmw-e30-complete-coilover-suspension">Ground Control Systems coilover race suspension</a> set up for Hoosier 245/580R15 competition radial slicks.</h5>
     <ul>
-        <li>Koni single-adjustable race dampers</li>
-        <li>Ireland Engineering front and rear sway bars</li>
-        <li>Shortened and gussetted front struts with M3-style sway bar links</li>
+        <li>Shortened front struts with M3-style sway bar links and gussets</li>
         <li>Eibach 2.5" coilover springs; 550 lb/in front, 850 rear</li>
         <li>Adjustable height spring perches</li>
+        <li>Koni single-adjustable race dampers</li>
         <li>Racing camber/caster plates</li>
+        <li>Spherical control arm bearings</li>
         <li>Urethane rear upper shock mounts</li>
+        <li>Ireland Engineering front sway bar with M3 strut links</li>
+        <li>Ireland Engineering rear sway bar</li>
         <li>Ireland Engineering adjustable rear camber/toe kit</li>
-        <li>Spherical front control arm bearings</li>
         <li>Reinforced front subframe and rear trailing arms</li>
-        <li>Solid aluminum rear subframe mount</li>
+        <li>Solid aluminum rear subframe mounts</li>
     </ul>
 
-    <p>D-Force 15" wheels, bullet-nose studs, Turner spacers. Also have a set of Team Dynamics wheels that I use for mounting rain tires.</p>
+    <p>D-Force 15" wheels, BimmerWorld bullet-nose studs, Turner wheel spacers. Also have a set of Team Dynamics wheels that I use for mounting rain tires.</p>
 
     <p>Brakes use stock rotors and calipers with stainless steel caliper lines and brass bushings. I used Hawk DTC-60 pads on the front and HT-10's on the rear. Brake fluid is ATE Blue.</p>
 
     <p>ABS module deleted. New brake lines. Front-rear brake bias control mounted on tunnel next to driver seat. Emergency brake deleted.</p>
 
-    <h2 id="chassis">Chassis</h2>
+      <p>I ran the car with the rear sway bar disconnected which keeps the inside front wheel planted better on fast sweepers.</p>
+  </div>
+</div>
+
+<!-- Chassis -->
+<div class="w3-row-padding w3-padding-32 w3-container">
+  <div class="w3-content">
+    <h1 id="chassis">Chassis</h1>
 
     <p>Ireland Engineering fiberglass hood (5 pins) and deck lid (Dzus fastened). Lexan rear and quarter windows. Rear bumper delete. Sunroof delete. Ireland Engineering ABS plastic fender flares.</p>
 
@@ -120,11 +170,16 @@
     </ul>
     <p>Warning lights are inlcuded for low voltage and oil pressure but they're not connected.</p>
     <p>Brake bias adjuster next to driver seat.</p>
+  </div>
+</div>
 
-    <h2 id="contact">Sale Info</h2>
+<!-- Contact Info -->
+<div class="w3-row-padding w3-padding-32 w3-container">
+  <div class="w3-content">
+    <h2 id="contact">Contact Info</h2>
     <p>The car is located in the central Maryland/Washington DC area near Gaithersburg.</p>
     <p>Buyer arranges for pickup or shipping. The car is not street-legal, so a trailer is required.</p>
-    <p>Contact Scott Lowrey: sdlowrey@gmail.com</p>
+    <p>Contact Scott Lowrey at EMAIL_HERE</p>
 
     <h3>Extras</h3>
     <ul>
@@ -140,7 +195,20 @@
     </ul>
 
     <p>I also have a partial M3 composite body kit made by Mario Langsten at <a href="http://www.vsr1.com/">Vintage Sports & Restoration</a>. The kit includes air dam, front fenders, and side skirts. (VSR wasn't able to provide rear quarter panels or rear bumper cover.) Note that these are <i>not</i> BMW parts; they're lightweight composites. Make me an offer.</p>
-
+  </div>
 </div>
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
 </body>
 </html>
